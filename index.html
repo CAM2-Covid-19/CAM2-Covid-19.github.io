@@ -135,23 +135,5 @@
             hamburger.classList.toggle("is-active");
             });
         </script>
-        <script>
-            document.addEventListener('DOMContentLoaded', function() {
-            jQuery(function($){
-            var mywindow = $(window);
-            var mypos = mywindow.scrollTop();
-            mywindow.scroll(function() {
-            if (mypos > 7000 && !$('#slide-navbar-collapse').hasClass('show')) {
-            if(mywindow.scrollTop() > mypos) {
-            $('#stickyheaders').removeClass('headerdown');
-            $('#stickyheaders').addClass('headerup');
-            } else {
-            $('#stickyheaders').removeClass('headerup');
-            $('#stickyheaders').addClass('headerdown');
-            }
-            }
-            mypos = mywindow.scrollTop();
-            }); }); });
-        </script>
     </body>
 </html>
