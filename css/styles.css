@@ -10075,10 +10075,12 @@ body {
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: none;
   background-color: transparent;
+  backdrop-filter: blur(5px);
 }
 @media (min-width: 767px) {
   #mainNav {
     background-color: transparent;
+    backdrop-filter: blur(5px);
     transition: background-color 1000ms linear;
   }
   #mainNav.navbar-shrink {
