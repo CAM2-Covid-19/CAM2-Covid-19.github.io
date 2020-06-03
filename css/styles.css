@@ -10167,7 +10167,7 @@ body {
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid rgb(106, 116, 246);
+    border-left: 0.5rem solid #1b1b1b;
   }
 }
 .projects-section .project-text {
@@ -10209,7 +10209,7 @@ body {
 }
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid white;
 }
 .contact-section .card h4 {
   font-size: 0.8rem;
@@ -10218,7 +10218,7 @@ body {
   letter-spacing: 0.15rem;
 }
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #1b1b1b;
   border-width: 0.25rem;
   width: 3rem;
 }
