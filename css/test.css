@@ -144,10 +144,18 @@ footer{
   height: 340px;
   width: 560px;
 }
+.bottom-padding{
+  padding-bottom: 80px;
+}
+
 
 @media (max-width: 450px) {
   .videoformatting{
     height: 315px;
     width: 374px;
   }
+  .bottom-padding{
+    padding-bottom: 150px;
+  }
+  
 }
