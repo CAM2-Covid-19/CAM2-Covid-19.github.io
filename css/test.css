@@ -154,7 +154,11 @@ footer{
     height: 315px;
     width: 374px;
   }
+}
+
+@media (max-width:560px)
+{
   .bottom-padding{
-    padding-bottom: 500px;
+    padding-bottom: 200px !important;
   }
 }
