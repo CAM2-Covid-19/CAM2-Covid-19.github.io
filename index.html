@@ -18,6 +18,7 @@
         <link href="css/test.css" rel="stylesheet">
         <link href="css/resume.css" rel="stylesheet">
         <link href="css/hamburgers.css" rel="stylesheet">
+        
     </head>
     <header id="stickyheaders">
         <!-- Navigation -->
@@ -82,10 +83,11 @@
                 </div>
             </div>
         </section>
+        <section class="bg-light bottom-padding">
+            <div id="mapCanvas" class="featured-text text-center" style="width: 90%; height: 400px; width: 800px; margin: auto !important;"></div>
+        </section>
         <section class="bg-light bottom-padding" id="projects">
-            <div id="mapCanvas" style="margin-bottom: -10px;">
-                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1pDdaEdOqDIsa71a9wu_R4kGZgUePvWjP" width="90%" height="350px" style="border: 2px solid black; display: block; max-width: 700px; margin: auto !important;"></iframe>
-            </div>
+            <div id="mapCanvas"></div>
             <div class="featured-text text-center" style="width: 90%; height: 250px; max-width: 700px; margin: auto !important;">
                 <h4 style="font-family: 'Exo 2', sans-serif; font-weight: 600px; padding-top: 40px;">Our Method</h4>
                 <p class="text-black-50 mb-0">	Using our team's system of IP cameras and Live Stream Feeds from around the world, we have been able to utilize more than 30000 cameras to collect data. We are analyzing our collection of data by employing deep learning methods for scene classification, crowd density estimation, object detection, and distance estimation. The combination of these methods allow us to quantitatively understand the role social distancing has played in limiting the spread of Covid-19 in various city centers.</p>
@@ -127,6 +129,12 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        
+        <!-- Marker CLusterer JS-->
+        <script src="http://d3js.org/d3.v5.min.js" charset="utf-8"></script>
+        <script type="text/javascript" src=https://unpkg.com/@google/markerclusterer@2.0.6/dist/markerclusterer.min.js></script>
+        <script src="js/clustermap.js"></script>
+        <script src="js/loadapi.js"></script>
         <script>
             var hamburger = document.querySelector(".hamburger");
             hamburger.addEventListener("click", function() {
